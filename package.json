@@ -1,0 +1,59 @@
+{
+  "name": "@blackroad/react-components",
+  "version": "1.0.0",
+  "description": "BlackRoad OS React Component Library - Golden Ratio Design System",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "lint": "eslint src --ext .ts,.tsx",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "blackroad",
+    "react",
+    "components",
+    "ui",
+    "design-system",
+    "golden-ratio",
+    "ai-infrastructure"
+  ],
+  "author": "BlackRoad OS, Inc.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlackRoad-OS/blackroad-react-components"
+  },
+  "homepage": "https://blackroad-storybook.pages.dev",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@storybook/addon-essentials": "^8.0.0",
+    "@storybook/addon-interactions": "^8.0.0",
+    "@storybook/addon-links": "^8.0.0",
+    "@storybook/react": "^8.0.0",
+    "@storybook/react-vite": "^8.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-dts": "^6.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "storybook": "^8.0.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.3.0",
+    "vite": "^7.3.1"
+  }
+}
